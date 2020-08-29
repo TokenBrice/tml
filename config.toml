@@ -1,5 +1,5 @@
-title = "My Docs Project"
-theme = "tract"
+title = "The Missing Lien: Community Documentation for Lien Finance"
+theme = ["hugo-notice", "tract"]
 baseURL = "https://example.com"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
@@ -8,7 +8,7 @@ defaultContentLanguageInSubdir = true
 tag = "tags"
 
 [params]
-description = "Supercharging something or other since 2019"
+description = "The Missing Lien: Community Documentation for Lien Finance, a self-regulating protocol for creating unique derivative contracts."
 icon_set = "ionicons"
 
 [params.colors]
@@ -32,10 +32,13 @@ sizes = [400]
 type = "monospace"
 
 [params.social.twitter]
-handle = "lucperkins"
+handle = "LienFinance"
 
 [params.social.github]
-repo = "tract-docs/tract"
+repo = "tokenbrice/tml"
+
+[params.social.telegram]
+group = "test"
 
 [[menu.main]]
 name = "Docs"
@@ -43,12 +46,32 @@ identifier = "docs"
 url = "/docs"
 weight = 1
 
+[[menu.main]]
+name = "Getting started"
+parent = "docs"
+url = "/docs/getting-started"
+weight = 1
+
+[[menu.main]]
+name = "Second Category"
+parent = "docs"
+url = "/docs/i18n"
+weight = 2
+
 [languages.en]
-languageName = "English"
+languageName = "🇺🇸 English"
 contentDir = "content/en"
 weight = 1
-title = "Tract"
+title = "The Missing Lien"
 
 [languages.en.params]
-description = "A Hugo theme for ambitious documentation projects"
+description = "Community Documentation for Lien Finance, a self-regulating protocol for creating unique derivative contracts."
 
+[languages.fr]
+languageName = "🇫🇷 Français"
+contentDir = "content/fr"
+weight = 1
+title = "Le Lien Manquant"
+
+[languages.fr.params]
+description = "Documentation communautaire pour le projet Lien Finance, un protocol auto-régulé pour générer des contracts dérivés sur Ethereum."
