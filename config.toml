@@ -1,6 +1,6 @@
 title = "The Missing Lien: Community Documentation for Lien Finance"
 theme = ["hugo-notice", "tract"]
-baseURL = "https://example.com"
+baseURL = "https://vibrant-torvalds-ea10cc.netlify.app"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
