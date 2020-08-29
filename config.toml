@@ -47,15 +47,21 @@ url = "/docs"
 weight = 1
 
 [[menu.main]]
-name = "Getting started"
+name = "Lien Overview"
 parent = "docs"
-url = "/docs/getting-started"
+url = "/docs/overview"
 weight = 1
 
 [[menu.main]]
-name = "Second Category"
+name = "iDOL Stablecoin"
 parent = "docs"
-url = "/docs/i18n"
+url = "/docs/idol"
+weight = 2
+
+[[menu.main]]
+name = "FairSwap"
+parent = "docs"
+url = "/docs/fairswap"
 weight = 2
 
 [languages.en]
