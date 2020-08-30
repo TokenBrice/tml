@@ -1,9 +1,6 @@
 [submodule "themes/tract"]
 	path = themes/tract
 	url = https://github.com/tract-docs/tract
-[submodule "themes/hugo-notice"]
-	path = themes/hugo-notice
-	url = https://github.com/martignoni/hugo-notice.git
 [submodule "themes/zdoc"]
 	path = themes/zdoc
 	url = https://github.com/zzossig/hugo-theme-zdoc.git
