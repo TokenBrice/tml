@@ -1,7 +1,7 @@
 logo = true
-logoText = "ZDoc"
+logoText = "TML"
 logoType = "short" # long, short
-description = "The ZDoc theme for Hugo example site."
+description = "Community Documentation for Lien Finance, a self-regulating protocol for creating unique derivative contracts."
 
 themeOptions = ["light", "dark"]
 

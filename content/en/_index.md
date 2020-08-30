@@ -1,6 +1,6 @@
 ---
 title: TML
-description: Hugo Zzo theme documentation landing page
+description: Community Documentation for Lien Finance, a self-regulating protocol for creating unique derivative contracts.
 date: 2020-01-26T04:15:05+09:00
 draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
