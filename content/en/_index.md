@@ -1,46 +1,99 @@
 ---
-title: Lien Finance Introduction
+title: TML
+description: Hugo Zzo theme documentation landing page
+date: 2020-01-26T04:15:05+09:00
+draft: false
+# updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
+landing:
+#  image: favicon/android-icon-192x192.png
+  title:
+    - The Missing Lien
+  text:
+    - Community Documentation for Lien Finance, a self-regulating protocol for creating unique derivative contracts.
+  titleColor:
+  textColor:
+  spaceBetweenTitleText: 25
+footer:
+  sections:
+    - title: General
+      links:
+        - title: Docs
+          link: https://gohugo.io/
+        - title: Learn
+          link: https://gohugo.io/
+        - title: Showcase
+          link: https://gohugo.io/
+        - title: Blog
+          link: https://gohugo.io/
+    - title: resources
+      links:
+        - title: GitHub
+          link: https://gohugo.io/
+        - title: Releases
+          link: https://gohugo.io/
+        - title: Spectrum
+          link: https://gohugo.io/
+        - title: Telemetry
+          link: https://gohugo.io/
+    - title: Features
+      links:
+        - title: GitHub
+          link: https://gohugo.io/
+        - title: Releases
+          link: https://gohugo.io/
+        - title: Spectrum
+          link: https://gohugo.io/
+        - title: Telemetry
+          link: https://gohugo.io/
+  contents: 
+    align: left
+    applySinglePageCss: false
+    markdown:
+      |
+      ## Zzo docs
+      Copyright © 2020. All rights reserved.
+
+sections:
+  - bgcolor: teal
+    type: card
+    description: "Thanks to its elegant and minimalist design, Lien Finance innovates on the current exiting protocol model built on Ethereum enabling the creation of derivatives:"
+    header: 
+      title: Why Lien?
+      hlcolor: "#8bc34a"
+      color: '#fff'
+      fontSize: 32
+      width: 220
+    cards:
+      - subtitle: Trustless
+        subtitlePosition: center
+        description: "The Lien system only accepts ETH as input, the most trustless asset on the Ethereum blockchain. Thanks to a derivative split, the system can hedge for the volatility of the Ether.
+"
+        image: images/section/keyboard.png
+        color: white
+      - subtitle: Scalable
+        subtitlePosition: center
+        description: "Unlike similar derivatives system, Lien Finance does not rely on over-collateralization, which enables the system to be more economic-efficient and therefore more apt to scale."
+        image: images/section/processor.png
+        color: white
+      - subtitle: Efficient Governance
+        subtitlePosition: center
+        description: "Parameter-tuning within the Lien protocol is automated and enforced by smart contracts. To protect the system from a flash crash of the ETH price, the system monitors the volatility of ETH as well as its price."
+        image: images/section/root-server.png
+        color: white
+  - bgcolor: DarkSlateBlue
+    type: normal
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+    header:
+      title: Build it with Zdoc + Hugo
+      hlcolor: DarkKhaki
+      color: "#fff"
+      fontSize: 32
+      width: 340
+    body:
+      subtitle: Open Source & Transparent
+      subtitlePosition: left
+      description: "The Missing Lien is 100% community-owned and driven and built using self-hosted open source solutions: Hugo with the zDoc theme. The whole website lives in a public github repo - where everyone can submit contribution & track changes. "
+      color: white
+      image: images/section/root-server.png
+      imagePosition: left
 ---
-
-{{< notice warning >}}
-WEBSITE UNDER CONSTRUCTION
-{{< /notice >}}
-
-Lien Finance is a novel protocol enabling the creation of a unique type of derivatives on ETH: bond tokens.
-
-Lien is a flexible and elegant system that could support a various range of use cases. Lien's team is anonymous, yet confident the protocol can quickly provide value. To demonstrate it, they decided to tackle, as a first use case, a previously unsolved challenge: providing a trustless and scalable stablecoin on the Ethereum network: iDOL (Independent Dollar).
-
-{{< notice note >}}
-Please note: This website is entirely community owned and run and unaffliated with Lien Finance.
-{{< /notice >}}
-
-### Limitations of existing stablecoins
-
-The protocols already existing & tackling similar use cases, such as Maker (DAI) or Synthetix (sUSD) suffer significant drawbacks. Lien Finance is an elegant system attempting to overcome the current limitation faced by such systems:
-
-1. **Reduced economic efficiency** Overcollateralization greatly reduces the economic efficiencty of a given system, making it ultimately unable to suffice at scale. 
-2. **Trustlessness erosion**: as the Maker system scales, the trustlessness erodes. Currently, 20% of the collateral involved in the Maker system are trusted assets (wBTC & USDC) which can be seized or frozen.
-3. **Inefficient governance**: the governance of such systems is an expert game of parameter-tuning. It tends to exclude users without significant technical expertise from the governance process.
-
-### Achieving scalable trustlessness
-
-The design of the Lien system provides an elegant answer to these three main issues:
-
-1. **With Lien/iDOL, over-collateralization is not necessary.** Instead, the base unit of the system is not ETH, but two derivatives created from it - Solid Bond Tokens and Liquid Bond Tokens.
-2. Lien was built by an anonymous team unwilling to compromise. ETH, an asset offering credible trustless economic bandwidth is the only input of the system.
-3. **Lien is a self-regulating protocol**. Decisions related to parameter tuning are taken automatically by smart contracts adjusting to market conditions. Hurray! The community can focus on actual governance.
-
-You'll find below an overview of the Lien/iDOL system:
-![lien-overview](/img/lien-overview.png)
-
-Interested? Feel free to explore the doc!
-
-### Lien Finance - Official Resources
-
-- [Website](https://lien.finance/index.html)
-- [Twitter](https://twitter.com/LienFinance)
-- [Official Blog](medium.com/lien-finance)
-- [Discord Channel](https://discord.gg/aQaYCZh)
-- [Telegram](https://t.me/lien_finance)
-- [Telegram Ann](https://t.me/LienAnnouncement)
-- [Github](https://github.com/lien-finance)
