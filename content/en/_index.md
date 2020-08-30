@@ -92,7 +92,7 @@ sections:
     body:
       subtitle: Open Source & Transparent
       subtitlePosition: left
-      description: "The Missing Lien is 100% community-owned and driven and built using self-hosted open source solutions: Hugo with the zDoc theme. The whole website lives in a public github repo - where everyone can submit contribution & track changes. "
+      description: "The Missing Lien is 100% community-owned & driven and built using self-hosted open source solutions: Hugo with the zDoc theme. The whole website lives in a public github repo - where everyone can submit contribution & track changes. "
       color: white
       image: images/section/root-server.png
       imagePosition: left

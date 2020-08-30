@@ -1,6 +1,6 @@
 baseURL = "https://vibrant-torvalds-ea10cc.netlify.app"
 title = "The Missing Lien"
-theme = "zdoc"
+theme = ["hugo-notice", "zdoc"]
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
