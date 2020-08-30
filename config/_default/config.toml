@@ -1,5 +1,5 @@
-baseURL = "http://example.org"
-title = "Hugo Zdoc Theme"
+baseURL = "https://vibrant-torvalds-ea10cc.netlify.app"
+title = "The Missing Lien"
 theme = "zdoc"
 
 defaultContentLanguage = "en"
